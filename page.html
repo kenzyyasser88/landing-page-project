@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover timeless jewelry by NEFER, a jewelry maison inspired by elegance, craftsmanship, and beauty.">
+    <title>NEFER | Maison de Bijoux</title>
+    <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+
+</head>
+<body>
+
+```
+<header class="site-header">
+    <a href="#home" class="logo" aria-label="NEFER home">NEFER</a>
+
+    <nav id="main-navigation" aria-label="Main navigation">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <a href="#contact" class="header-cta">Contact Us</a>
+
+    <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Open navigation menu"
+        aria-controls="main-navigation"
+        aria-expanded="false"
+    >
+        <span aria-hidden="true">☰</span>
+    </button>
+</header>
+
+<main>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="eyebrow">TIMELESS · ELEGANT · UNIQUE</p>
+            <h1>Jewelry That Tells Your Story</h1>
+            <p>Discover timeless jewelry pieces designed to make every moment unforgettable.</p>
+            <a href="#collections" class="cta-button">Explore Collection</a>
+        </div>
+
+        <div class="hero-image">
+            <img
+                src="images/hero.jpg"
+                alt="Elegant gold necklace with a pearl pendant"
+                fetchpriority="high"
+            >
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-image">
+            <img
+                src="images/about.jpg"
+                alt="Jewelry inspired by timeless Egyptian artistry"
+                loading="lazy"
+            >
+        </div>
+
+        <div class="about-content">
+            <p class="about-label">ABOUT NEFER</p>
+            <h2>A Legacy of Beauty</h2>
+            <p>
+                NEFER is a fine jewelry maison inspired by the timeless
+                beauty of ancient Egyptian heritage and elegant craftsmanship.
+                Our pieces are more than accessories; they are stories,
+                symbols, and a celebration of your unique journey.
+            </p>
+            <a href="#collections" class="cta-button">Discover Our Story</a>
+        </div>
+
+        <div class="about-quote">
+            <p lang="fr">La beauté traverse le temps.</p>
+        </div>
+    </section>
+
+    <section id="collections" class="collections">
+        <p class="section-eyebrow">OUR COLLECTIONS</p>
+        <h2>Find Your Perfect Piece</h2>
+
+        <div class="products">
+            <article class="product-card">
+                <img
+                    src="images/necklace.jpg"
+                    alt="Gold necklace with a delicate pendant"
+                    loading="lazy"
+                >
+                <h3>Necklaces</h3>
+                <p>Elegant pieces designed to complement every look.</p>
+                <a href="#contact">Explore Necklaces</a>
+            </article>
+
+            <article class="product-card">
+                <img
+                    src="images/bracelet.jpg"
+                    alt="Elegant gold bracelet"
+                    loading="lazy"
+                >
+                <h3>Bracelets</h3>
+                <p>Delicate designs with timeless elegance.</p>
+                <a href="#contact">Explore Bracelets</a>
+            </article>
+
+            <article class="product-card">
+                <img
+                    src="images/earrings.jpg"
+                    alt="Elegant earrings with pearl details"
+                    loading="lazy"
+                >
+                <h3>Earrings</h3>
+                <p>Beautiful details made for every occasion.</p>
+                <a href="#contact">Explore Earrings</a>
+            </article>
+
+            <article class="product-card">
+                <img
+                    src="images/ring.jpg"
+                    alt="Gold ring with a gemstone"
+                    loading="lazy"
+                >
+                <h3>Rings</h3>
+                <p>Unique pieces created to become your favorites.</p>
+                <a href="#contact">Explore Rings</a>
+            </article>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <p class="section-eyebrow">TESTIMONIALS</p>
+        <h2>What Our Customers Say</h2>
+
+        <div class="testimonial-list">
+            <blockquote>
+                <p>
+                    "I love my new necklace from NEFER Jewelry!
+                    It's beautiful and well-made."
+                </p>
+                <footer>— Happy Customer</footer>
+            </blockquote>
+
+            <blockquote>
+                <p>
+                    "The bracelet I purchased is stunning.
+                    I get compliments on it all the time!"
+                </p>
+                <footer>— Satisfied Customer</footer>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="contact-info">
+            <p class="section-eyebrow">GET IN TOUCH</p>
+            <h2>Contact NEFER</h2>
+            <p>We would love to hear from you. Send us a message and learn more about our collections.</p>
+
+            <address>
+                <p>
+                    <strong>Email:</strong>
+                    <a href="mailto:info@nefer.com">info@nefer.com</a>
+                </p>
+                <p>
+                    <strong>Phone:</strong>
+                    <a href="tel:+201000000000">+20 100 000 0000</a>
+                </p>
+                <p><strong>Location:</strong> Cairo, Egypt</p>
+            </address>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    autocomplete="name"
+                    placeholder="Your name"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    autocomplete="email"
+                    placeholder="Your email address"
+                    required
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="How can we help you?"
+                    required
+                ></textarea>
+            </div>
+
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+
+    <section class="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter-content">
+            <p class="section-eyebrow">STAY CONNECTED</p>
+            <h2 id="newsletter-title">Join Our Newsletter</h2>
+            <p>Subscribe to receive the latest news, collection updates, and special offers from NEFER.</p>
+
+            <form class="newsletter-form" action="#" method="post">
+                <label for="newsletter-email">Email address</label>
+                <div class="newsletter-input-group">
+                    <input
+                        type="email"
+                        id="newsletter-email"
+                        name="newsletter-email"
+                        placeholder="Your email address"
+                        autocomplete="email"
+                        required
+                    >
+                    <button type="submit">Subscribe</button>
+                </div>
+            </form>
+
+            <div class="special-offer">
+                <h3>Today's Special</h3>
+                <p>Discover special offers on selected NEFER earrings this week.</p>
+            </div>
+        </div>
+
+        <div class="newsletter-image">
+            <img
+                src="images/newsletter.jpg"
+                alt="Elegant pearl earrings from the NEFER collection"
+                loading="lazy"
+            >
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="footer-brand">
+        <a href="#home" class="logo" aria-label="NEFER home">NEFER</a>
+        <p>MAISON DE BIJOUX</p>
+        <p>Timeless elegance, thoughtfully crafted.</p>
+    </div>
+
+    <div class="footer-links">
+        <h2>Quick Links</h2>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="footer-social">
+        <h2>Follow NEFER</h2>
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/NEFERjewelry" target="_blank" rel="noopener noreferrer">Facebook</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/NEFERjewelry" target="_blank" rel="noopener noreferrer">Instagram</a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/NEFERjewelry" target="_blank" rel="noopener noreferrer">Twitter</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="footer-contact">
+        <h2>Contact Information</h2>
+        <p><a href="mailto:info@nefer.com">info@nefer.com</a></p>
+        <p><a href="tel:+201000000000">+20 100 000 0000</a></p>
+        <p>Cairo, Egypt</p>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 NEFER Jewelry. All rights reserved.</p>
+    </div>
+</footer>
+```
+
+</body>
+</html>
